@@ -13,6 +13,14 @@ This process offers better quality than simply generating an ICO from the ImageM
 You can either supply the SVG path as a startup argument or as text input when the program launches.
 The ICO will be calculated and saved next to the source image with the same name (but ico ext).
 
+### Single ICO file
+
+`$ {path}/SvgToIco.exe "path/to/my/IcoFile.ico"`
+
+### Progressive ICO file
+
+`$ {path}/SvgToIco.exe "path/to/my/IcoFile_Small.ico" "path/to/my/IcoFile_Medium.ico" "path/to/my/IcoFile_Large.ico"`
+
 ## Prereqs
 
 You must have [ImageMagick](https://imagemagick.org/index.php) installed and added to your system path.
